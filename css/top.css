@@ -1,0 +1,41 @@
+ul,li,body,h1,h2,h3,h4,h5,h6,input,html,p{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+input{
+	outline: 0;
+}
+.top{
+	width:1000px;
+	margin:0 auto;
+	height: 70px;
+}
+.top .logo{
+	width:200px;
+	height:70px;
+	float:left;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	color:#00AD50;
+}
+.top .login{
+	float:right;
+	height:70px;
+	width:400px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	color: #666666;
+	font-size: 14px;
+}
+.top .login-con{
+	font-size: 14px;
+	color: #e9474d;
+}
